@@ -1,6 +1,6 @@
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './styles/global'
-import { defaultTheme } from './styles/themes/default'
+import { defaultTheme } from './styles/themes/light'
 
 function App() {
   return (
