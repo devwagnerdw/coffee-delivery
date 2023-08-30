@@ -1,9 +1,13 @@
-
+import {ThemeProvider} from 'styled-components'
+import { defaultTheme } from './styles/themes/default'
 function App() {
 
   return (
 
-    <h1>ola</h1>
+  <ThemeProvider theme={defaultTheme}>
+       <h1>ola</h1>
+  </ThemeProvider>
+   
   )
 }
 
