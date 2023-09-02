@@ -11,7 +11,7 @@ export function Header() {
       <div>
         <LocationBadge>
           <MapPin size={18} weight="fill" />
-          Taboão da Serra, SP
+          Rio de janeiro , RJ
         </LocationBadge>
 
         <CartButton>
